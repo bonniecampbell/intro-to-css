@@ -1,8 +1,40 @@
 /* This is a CSS commitment */
 html {
   background-color:#0ad1e8;
-
+  font-family: 'Libre Baskerville', serif;
   color: #fff;
 
 
 }
+
+h1 {
+  color:pink;
+  font-weight: normal;
+  font-size: 5rem;
+ line-height: 1.5;
+ text-shadow: 2px 10px red;
+
+  /* text-shadow
+      horizontal
+      Vertical
+      Blur radius/size
+      color
+  */
+}
+
+p {
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center; /* left, center, right, justify */
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+ol {
+  list-style-type: none;
+
+/* more: decimal, circle, lower-alpha, lower-roman, upper-aplpha, upper-roman,
+   square, disc, or none
+   */
+
+padding: 0
